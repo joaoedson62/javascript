@@ -20,3 +20,10 @@ header {
     text-align: center;
     font-style: italic;
   }
+
+  div img {
+   width: 250px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  }
