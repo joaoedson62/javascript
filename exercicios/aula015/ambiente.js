@@ -4,6 +4,9 @@ num.sort()  // Ordena os numeros no vetor
 console.log(num) // Mostra os números do vetor
 console.log(`Nosso vetor tem ${num.length} posições`)   
 console.log(`O primeiro valor do vetor é ${num[3]}`)
+
+// Usando condições.
+
 let pos = num.indexOf(9)
 if (pos == -1){
     console.log('O valor não foi encontrado!')
