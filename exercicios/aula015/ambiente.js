@@ -7,7 +7,7 @@ console.log(`O primeiro valor do vetor é ${num[3]}`)
 
 // Usando condições.
 
-let pos = num.indexOf(9)
+let pos = num.indexOf(9)  // indexOF é usado para localizar valores num array (vetor)
 if (pos == -1){
     console.log('O valor não foi encontrado!')
 } else {
