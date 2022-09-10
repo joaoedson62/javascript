@@ -40,7 +40,7 @@ function vereficar() {
             } else {
                 // idoso
                 img.setAttribute('src', 'foto-idoso-f.png')
-            }
+            }  
         }
         res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
         res.appendChild(img)
